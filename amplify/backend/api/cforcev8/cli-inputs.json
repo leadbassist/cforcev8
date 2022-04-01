@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "cforcev8",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "F:\\Projects\\crypto_app_react_aws\\CForce_v8\\amplify\\backend\\api\\cforcev8\\schema.graphql",
+    "defaultAuthType": {
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authcforcev8150283fa"
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "API_KEY",
+        "expirationTime": 2,
+        "apiKeyExpirationDate": "2022-04-03T17:48:43.780Z",
+        "keyDescription": "use AppSync without auth restriction"
+      },
+      {
+        "mode": "AWS_IAM"
+      }
+    ]
+  }
+}

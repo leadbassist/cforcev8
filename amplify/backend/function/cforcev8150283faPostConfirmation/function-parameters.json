@@ -1,0 +1,17 @@
+{
+  "trigger": true,
+  "modules": [
+    "custom"
+  ],
+  "parentResource": "cforcev8150283fa",
+  "functionName": "cforcev8150283faPostConfirmation",
+  "resourceName": "cforcev8150283faPostConfirmation",
+  "parentStack": "auth",
+  "triggerEnvs": [],
+  "triggerDir": "C:\\Users\\leadb\\AppData\\Roaming\\nvm\\v16.10.0\\node_modules\\@aws-amplify\\cli\\node_modules\\@aws-amplify\\amplify-category-auth\\provider-utils\\awscloudformation\\triggers\\PostConfirmation",
+  "triggerTemplate": "PostConfirmation.json.ejs",
+  "triggerEventPath": "PostConfirmation.event.json",
+  "roleName": "cforcev8150283faPostConfirmation",
+  "skipEdit": true,
+  "enableCors": false
+}

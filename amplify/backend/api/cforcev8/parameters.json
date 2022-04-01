@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "cforcev8",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authcforcev8150283fa",
+      "Outputs.UserPoolId"
+    ]
+  }
+}
